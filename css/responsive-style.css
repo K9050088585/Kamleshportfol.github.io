@@ -1,0 +1,270 @@
+@media(max-width:991px){
+
+    /*  Custom css  Pre-defined*/
+    section{
+        padding:30px 0px;
+    }
+    h1{
+        font-size: 35px;
+        line-height: 53px;
+        text-align: left;
+        font-weight: 800;
+        color: var(--text-white);
+        margin-bottom:20px;
+        }
+
+    
+    h2{
+        font-size:30px;
+        line-height: 40px;
+
+    }
+    h3{
+        font-size:20px;
+    }
+
+    /* Navbar */
+    .header_wapper .navbar{
+        padding: 20px 0;
+        -webkit-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear;
+    }
+    .header_wapper .navbar-brand img{
+        width: 60px;
+        height: auto;
+    }
+    .header-scrolled{
+        height: auto;
+    }
+    .header_wapper .menu-navbar-nav{
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom:15px;
+
+    }
+    .header_wapper .nav-item .nav-link{
+        margin-top:15px;
+    }
+
+    /* Banner */
+
+
+    .banner-wrapper{
+    
+        width:100%;
+        height: auto;
+        min-height: 650px;
+        border: 12px;
+        /* background-image:url("/img/section1.png"); */
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 50px 0 100px 0;
+    
+    }
+    .banner_wrapper lottie-player{
+
+        width: 50%;
+        height: 70%;
+        float: right;
+
+    }
+
+    /* about us */
+    .about_wrapper{
+        padding: 10px 10px 10px 10px
+    }
+    .about_wrapper img{
+        
+        /* float: left; */
+        width:70%;
+        height: 50%; 
+        padding: 10px 20px 40px 10px ;
+    }
+    .about_wrapper ul.nav-pills{
+        width: 70%;
+        margin:auto;
+    }
+    .about_wrapper .tab-content{
+        padding: 0 0 30px 0;
+        
+    }
+    .about_wrapper .subtitle{
+    
+        padding-left:20px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        font-family: var(--primary-font);
+    }
+    .about_wrapper h2{
+        color:var(--text-white);
+        font-weight: 600;
+        font-size: 25px;
+        padding-left:15px;
+    }
+    .about_wrapper p{
+        font-size: 17px;
+        color:rgb(130, 139, 148);
+        letter-spacing: 2px;
+        text-decoration-style:solid;
+        padding-left:15px;
+    }
+    .about_wrapper .imgpy{
+        width: 25%;
+        
+    }
+    
+    .about_wrapper .imgdsa{
+        
+        width: 45%;
+        
+    }
+    .about_wrapper .skill{
+        width: 80%;
+        height: 70%;
+    }
+    
+
+    /* Portfolio */
+    .portfolio_wrapper .card{
+        min-height: 400px;
+    }
+    .footer_wrapper .footerlogo img{
+        width:80px;
+        margin-left: 50px;
+}
+}
+@media(max-width:700px){
+    /*  Custom CSS Pre-defined */
+    h1{
+        text-align: left;
+        font-size: 30px;
+        line-height:40px;
+        font-weight: 600;
+        color: var(--text-white);
+        margin-bottom:10px;
+    }
+    h2{
+        font-size: 15px;
+
+    }
+
+    p{
+        font-size:13px;
+
+        
+
+    }
+    h6{
+        font-size: 15px;
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 23px;
+        letter-spacing: 4px;
+        font-weight: 400;
+        
+        color:rgb(142, 136, 136);
+        margin-bottom:20px;
+        
+    }
+
+
+    /* Section 2 banner */
+
+    .banner_wrapper{
+        width:100%;
+        height: auto;
+        min-height: 650px;
+        border: 12px;
+        /* background-image:url("/img/section1.png"); */
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 150px 0 0px 0;
+    }
+    .banner_wrapper lottie-player{
+
+        width: 50%;
+        height: 80%;
+        float: right;
+        padding-top: 80px;
+
+    }
+    /* Portfolio */
+   
+    /* about  */
+
+    .about_wrapper{
+        padding: 10px 10px 10px 10px
+    }
+    .about_wrapper img{
+        
+        /* float: left; */
+        width:120%;
+        height: 100%; 
+        padding: 0px 10px 0px 10px ;
+    }
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin:auto;
+        border:0;
+    }
+    .about_wrapper ul li .nav-link{
+        font-size: 13px;
+    }
+    .about_wrapper .subtitle{
+    
+        padding-left:20px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        font-family: var(--primary-font);
+    }
+    .about_wrapper h2{
+        color:var(--text-white);
+        font-weight: 600;
+        font-size: 25px;
+        padding-left:15px;
+    }
+    .about_wrapper p{
+        font-size: 17px;
+        color:rgb(130, 139, 148);
+        letter-spacing: 2px;
+        text-decoration-style:solid;
+        padding-left:15px;
+    }
+    .about_wrapper .imgpy{
+        width: 25%;
+        
+    }
+    
+    .about_wrapper .imgdsa{
+        
+        width: 45%;
+        
+    }
+    .about_wrapper p{
+        font-size: 15px;
+    }
+    /* portfolio */
+    .portfolio_wrapper .card{
+        
+        padding-bottom:10px;
+        min-height: 500px;
+    }
+ 
+    
+  
+    .contact_wrapper img{
+        padding:0px 20px 0px 20px;
+
+    }
+      /* footer */
+    .footer_wrapper .footerlogo img{
+        width: 70px;
+        margin-right: 40px;
+    }
+
+}
